@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .menu-hover {
+    @apply hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none;
+  }
+  .menu-mobile-click {
+      @apply text-accent opacity-80;
+  }
+}
+
 body {
   @apply bg-background;
   @apply text-white;
