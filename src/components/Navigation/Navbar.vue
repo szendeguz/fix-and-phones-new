@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-light sticky top-0 z-10">
+    <div class="w-full bg-light sticky top-0 z-20">
     <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 py-1">
       <div class="p-4 flex flex-row items-center justify-between">
         <!--LOGO-->
@@ -14,11 +14,11 @@
       </div>
       <!--NAV ITEMS-->
       <nav :class="[dropdownOpen ? 'flex' : 'hidden']" class="flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-        <router-link to="/" class="px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg md:mt-0 menu-hover" @click="this.dropdownHandler(), this.dropdownOpen = false">Kezdőlap</router-link>
-        <router-link to="/keszulekek" class="px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" @click="this.dropdownHandler(), this.dropdownOpen = false">Készülékek</router-link>
+        <router-link to="/" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 menu-hover" @click="this.dropdownHandler(), this.dropdownOpen = false">Kezdőlap</router-link>
+        <router-link to="/keszulekek" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" @click="this.dropdownHandler(), this.dropdownOpen = false">Készülékek</router-link>
         <!--DESKTOP DROPDOWN-->
         <div class="relative z-10 hidden md:block">
-          <button @click="this.dropdownHandler()" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-lg font-semibold text-left text-white bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 menu-hover">
+          <button @click="this.dropdownHandler()" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-md font-semibold text-left text-white bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 menu-hover">
             <span>Szerviz</span>
             <svg fill="currentColor" viewBox="0 0 20 20" :class="[dropdownOpen ? 'rotate-180' : '0']" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
           </button>
@@ -82,7 +82,7 @@
           </Transition>
         </div>
         <!--MOBILE DROPDOWN-->
-        <div class="flex flex-col text-lg rounded-lg text-white cursor-pointer md:hidden">
+        <div class="flex flex-col text-md rounded-lg text-white cursor-pointer md:hidden">
             <div class="rounded-lg">
               <div class="flex items-center rounded-lg justify-between h-12 px-4 py-2 mt- font-semibold hover:bg-gray-200 hover:text-light"  @click="this.mobileDropdownHandler()">
                   <span class="truncate rounded-lg">Szerviz</span>
@@ -142,8 +142,8 @@
               </div>
             </div>
         </div>
-        <a class="px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Rólunk</a>
-        <a class="px-4 py-2 mt-2 text-lg font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Kapcsolat</a>
+        <a class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Rólunk</a>
+        <a class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Kapcsolat</a>
       </nav>
     </div>
   </div>

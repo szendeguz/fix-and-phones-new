@@ -9,6 +9,12 @@
   .menu-mobile-click {
       @apply text-accent opacity-80;
   }
+  .hero-bg-img {
+    background-image: url('./images/backgrounds/home_hero_bg.jpg');
+  }
+  .contact-us-bg {
+    background-image: url('./images/backgrounds/contact_bg.png');
+  }
 }
 
 body {
