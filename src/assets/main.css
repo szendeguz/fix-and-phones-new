@@ -15,6 +15,16 @@
   .contact-us-bg {
     background-image: url('./images/backgrounds/contact_bg.png');
   }
+  .sub-hero-bg {
+    background-image: url('./images/backgrounds/subheader_bg.jpg');
+  }
+  .accordionHover {
+    @apply hover:text-accent
+    relative before:content-[''] before:absolute before:block before:w-[50%] before:h-[2px] 
+    before:bottom-0 before:left-0 before:bg-accent
+    before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+    before:transition before:ease-in-out before:duration-300
+  }
 }
 
 body {

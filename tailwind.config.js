@@ -11,7 +11,11 @@ module.exports = {
         lightest: '#383838',
         accent: '#00bdf7',
         white: '#e0e0e0',
-      }
+        realwhite: '#ffffff',
+      },
+      screens: {
+        'tr': '960px',
+      },
     },
   },
   plugins: [],
