@@ -1,5 +1,4 @@
 <template>
-
 <section
   class="relative hero-bg-img bg-cover bg-center bg-no-repeat sm:h-[80vh]"
 >
@@ -26,7 +25,6 @@
     </div>
   </div>
 </section>
-
 </template>
 
 <script>
