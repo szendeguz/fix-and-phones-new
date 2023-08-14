@@ -2,11 +2,7 @@
   <section>
   <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
     <header class="text-center">
-      <h2 class="text-xl font-bold text-white sm:text-3xl">
-        Készülékeink
-      </h2>
-
-      <p class="max-w-md mx-auto mt-4 text-gray-500">
+      <p class="max-w-md mx-auto mt-4 text-white text-xl sm:text-2xl">
         Válaszd ki, hogy melyik Apple termékeddel van a hiba. Telefon, tablet vagy okosóra?
       </p>
     </header>

@@ -301,4 +301,1298 @@ export const store = reactive({
             batteryChange: 0,
         }
     ],
+    iphoneMotherboardList: [
+        {
+            name: 'iPhone 12 Pro Max',
+            problems: [
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                }
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 12 Pro',
+            problems: [
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                }
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 12',
+            problems: [
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                }
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 12 Mini',
+            problems: [
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                }
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 11 Pro Max',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '45-55.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '35-55.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 11 Pro',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '45-55.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '35-55.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 11',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-55.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30-55.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '45-55.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '35-55.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone SE 2020',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '25.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '25.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '25.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '25.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '20-30.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone Xs Max',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-40.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-40.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '40.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '30-45.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone Xs',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-40.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-40.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '40.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '30-45.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone Xr',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '35.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '35-40.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-40.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '40.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '30-45.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone X',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Face ID javítás',
+                    desc: '(letiltott vagy nem beaktiválható arcfelismerés)',
+                    price: '25-40.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '30-35.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '40.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '30-45.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 8 Plus',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Home gomb javítás',
+                    desc: '(„bekeményedett” gomb, nincs ujjlenyomatolvasás)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '24.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '20-30.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 8',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Home gomb javítás',
+                    desc: '(„bekeményedett” gomb, nincs ujjlenyomatolvasás)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '24.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '30.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '20-30.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 7 Plus',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Home gomb javítás',
+                    desc: '(„bekeményedett” gomb, nincs ujjlenyomatolvasás)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20-25.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-30.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 7',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Home gomb javítás',
+                    desc: '(„bekeményedett” gomb, nincs ujjlenyomatolvasás)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20-25.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-30.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 6s Plus',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '19.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 6s',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '22.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '18.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 6 Plus',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '17.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 6',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone SE (1. generáció)',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+        {
+            name: 'iPhone 5s',
+            problems: [
+                {
+                    name: 'Töltővezérlő csere',
+                    desc: '(nem megfelelően vagy egyáltalán nem tölt)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Baseband IC csere',
+                    desc: '(nem lehet beaktiválni, eltűnt IMEI szám)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Audio IC csere',
+                    desc: '(nincs hang)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Touch IC csere',
+                    desc: '(kijelző nem érint)',
+                    price: '15.000',
+                },
+                {
+                    name: 'Wi-Fi IC csere',
+                    desc: '(nincs elérhető hálózat vagy Bluetooth)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Kamera IC csere',
+                    desc: '(kamera nem működik)',
+                    price: '16.000',
+                },
+                {
+                    name: 'Memória javítás, bővítés',
+                    desc: '(adatmentés vagy tárhelybővítés esetén)',
+                    price: '20.000',
+                },
+                {
+                    name: 'Vízkár javítás',
+                    price: '15-25.000',
+                },
+            ],
+            active: false,
+        },
+    ],
+    iphoneModularList: {
+        powerButton: {
+            name: 'Bekapcsoló gomb',
+            problems: [
+                {
+                    name: 'iPhone 12 Pro Max',
+                    price: '22.000',
+                },
+                {
+                    name: 'iPhone 12 Pro',
+                    price: '22.000',
+                },
+                {
+                    name: 'iPhone 12',
+                    price: '22.000',
+                },
+                {
+                    name: 'iPhone 12 Mini',
+                    price: '22.000',
+                },
+                {
+                    name: 'iPhone 11 Pro Max',
+                    price: '18.000',
+                },
+                {
+                    name: 'iPhone 11 Pro',
+                    price: '18.000',
+                },
+                {
+                    name: 'iPhone 11',
+                    price: '18.000',
+                },
+                {
+                    name: 'iPhone SE 2020',
+                    price: '12.000',
+                },
+                {
+                    name: 'iPhone XS Max',
+                    price: '16.000',
+                },
+                {
+                    name: 'iPhone XS',
+                    price: '15.000',
+                },
+                {
+                    name: 'iPhone Xr',
+                    price: '15.000',
+                },
+                {
+                    name: 'iPhone X',
+                    price: '14.000',
+                },
+                {
+                    name: 'iPhone 8 Plus',
+                    price: '9.000',
+                },
+                {
+                    name: 'iPhone 8',
+                    price: '9.000',
+                },
+                {
+                    name: 'iPhone 7 Plus',
+                    price: '9.000',
+                },
+                {
+                    name: 'iPhone 7',
+                    price: '9.000',
+                },
+                {
+                    name: 'iPhone 6s Plus',
+                    price: '8.000',
+                },
+                {
+                    name: 'iPhone 6s',
+                    price: '8.000',
+                },
+                {
+                    name: 'iPhone 6 Plus',
+                    price: '8.000',
+                },
+                {
+                    name: 'iPhone SE',
+                    price: '7.000',
+                },
+                {
+                    name: 'iPhone 5s',
+                    price: '6.000',
+                },
+                {
+                    name: 'iPhone 5 / 5c',
+                    price: '6.000',
+                },   
+            ],
+            active: false,
+    },
+        chargerInput: {
+        name: 'Töltő és adatátviteli csatlakozó',
+        problems: [
+            {
+                name: 'iPhone 12 Pro Max',
+                price: '22.000',
+            },
+            {
+                name: 'iPhone 12 Pro',
+                price: '22.000',
+            },
+            {
+                name: 'iPhone 12',
+                price: '22.000',
+            },
+            {
+                name: 'iPhone 12 Mini',
+                price: '22.000',
+            },
+            {
+                name: 'iPhone 11 Pro Max',
+                price: '18.000',
+            },
+            {
+                name: 'iPhone 11 Pro',
+                price: '18.000',
+            },
+            {
+                name: 'iPhone 11',
+                price: '18.000',
+            },
+            {
+                name: 'iPhone SE 2020',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone XS Max',
+                price: '16.000',
+            },
+            {
+                name: 'iPhone XS',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone Xr',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone X',
+                price: '14.000',
+            },
+            {
+                name: 'iPhone 8 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 8',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 6s Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6s',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6 Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone SE',
+                price: '7.000',
+            },
+            {
+                name: 'iPhone 5s',
+                price: '6.000',
+            },
+            {
+                name: 'iPhone 5 / 5c',
+                price: '6.000',
+            },   
+        ],
+        active: false,
+    },
+        ringtoneSpeaker: {
+        name: 'Csengő hangszóró',
+        problems: [
+            {
+                name: 'iPhone 12 Pro Max',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12 Pro',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12 Mini',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 11 Pro Max',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone 11 Pro',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone 11',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone SE 2020',
+                price: '10.000',
+            },
+            {
+                name: 'iPhone XS Max',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone XS',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone Xr',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone X',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone 8 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 8',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 6s Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6s',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6 Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone SE',
+                price: '7.000',
+            },
+            {
+                name: 'iPhone 5s',
+                price: '5.000',
+            },
+            {
+                name: 'iPhone 5 / 5c',
+                price: '5.000',
+            },   
+        ],
+        active: false,
+    },
+        talkSpeaker: {
+        name: 'Beszéd hangszóró',
+        problems: [
+            {
+                name: 'iPhone 12 Pro Max',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12 Pro',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 12 Mini',
+                price: '20.000',
+            },
+            {
+                name: 'iPhone 11 Pro Max',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone 11 Pro',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone 11',
+                price: '15.000',
+            },
+            {
+                name: 'iPhone SE 2020',
+                price: '10.000',
+            },
+            {
+                name: 'iPhone XS Max',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone XS',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone Xr',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone X',
+                price: '12.000',
+            },
+            {
+                name: 'iPhone 8 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 8',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7 Plus',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 7',
+                price: '9.000',
+            },
+            {
+                name: 'iPhone 6s Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6s',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone 6 Plus',
+                price: '8.000',
+            },
+            {
+                name: 'iPhone SE',
+                price: '7.000',
+            },
+            {
+                name: 'iPhone 5s',
+                price: '5.000',
+            },
+            {
+                name: 'iPhone 5 / 5c',
+                price: '5.000',
+            },   
+        ],
+        active: false,
+    },
+    }
 });
