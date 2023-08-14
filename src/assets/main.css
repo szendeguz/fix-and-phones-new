@@ -25,6 +25,9 @@
     before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
     before:transition before:ease-in-out before:duration-300
   }
+  .accordion-header {
+    @apply py-4 px-6 cursor-pointer;
+}
 }
 
 body {

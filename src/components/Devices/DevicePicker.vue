@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-light flex flex-col justify-center items-center p-4 mt-12">
-        <three-tab @tabclick="changeTab" :buttons="this.tabButtons" class="-mt-10"></three-tab>
+    <div class="bg-lighter flex flex-col justify-center items-center p-8 mt-12">
+        <three-tab @tabclick="changeTab" :buttons="this.tabButtons" class="-mt-14"></three-tab>
         <div 
         v-if="this.activeTab === 'iPhone'"
         class="grid tr:grid-cols-3 md:grid-cols-2 p-8"

@@ -75,6 +75,48 @@
                     </div>
                 </div>
             </template>
+            <template v-else-if="contentType === 'ipMotherboard'">
+                <div class="flex flex-col items-center justify-between">
+                    <div class="mt-2 text-lg items-center text-gray-900 mb-2">
+                        <div v-for="problem in productData.problems" :key="problem.name" class="ml-3">
+                            <h3 class="mr-2 mb-3 text-xl text-gray-900">{{ problem.name }}&nbsp;<span class="text-gray-700">{{ problem.desc }}</span>:&nbsp;<br><span class="font-semibold">{{ problem.price }} Ft</span></h3>
+                        </div>
+                        <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
+                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/"/>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template v-else-if="contentType === 'iphoneScreenChange'">
+                <div class="flex flex-col items-center justify-between">
+                    <div class="mt-2 text-lg items-center text-gray-900 mb-2">
+                        <div class="ml-3">
+                            <h3 class="mr-2 mb-3 text-xl text-gray-900">Kijelző felújítás:&nbsp;<span class="font-semibold">{{ productData.screenRenewal }} Ft</span></h3>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="mr-2 mb-3 text-xl text-gray-900">Kijelző csere:&nbsp;<span class="font-semibold">{{ productData.screenChange }} Ft</span></h3>
+                        </div>
+                        <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
+                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/"/>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template v-else>
+                <div class="sm:grid sm:grid-cols-2 flex flex-col items-center justify-between">
+                    <div v-if="contentType === 'iphoneBackChange'" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2 p-2 accordionHover">
+                        <h3 class="mr-2 text-xl text-gray-900">Hátlap csere:&nbsp;</h3>
+                        <p class="text-xl font-semibold">{{ productData.backChange }}</p> 
+                    </div>
+                    <div v-else-if="contentType === 'iphoneBatteryChange'" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2 p-2 accordionHover">
+                        <h3 class="mr-2 text-xl text-gray-900">Akkumulátor csere:&nbsp;</h3>
+                        <p class="text-xl font-semibold">{{ productData.batteryChange }}</p> 
+                    </div>
+                    <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
+                        <universal-button :arrowButton="true" :accentBackground="true" text="Rendelés" destination="/"/>
+                    </div>
+                </div>
+            </template>
         </div>
     </Transition>
 </template>
@@ -87,6 +129,7 @@ export default {
         product: Object,
         contentType: String,
     },
+    emits: ["accordionclick"],
     data() {
         return {
             productData: this.product,
@@ -137,7 +180,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .slide-up-enter-active {
   transition: all 0.25s ease-out;
 }
