@@ -6,6 +6,8 @@ import BackChangeView from '../views/Iphone/BackChangeView.vue'
 import BatteryChangeView from '../views/Iphone/BatteryChangeView.vue'
 import ScreenChangeView from '../views/Iphone/ScreenChangeView.vue'
 import ModularChangeView from '../views/Iphone/ModularChangeView.vue'
+import WatchScreenChangeView from '../views/AppleWatch/WatchScreenChangeView.vue'
+import WatchBatteryChangeView from '../views/AppleWatch/WatchBatteryChangeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +47,16 @@ const router = createRouter({
       name: 'iphone-modularis',
       component: ModularChangeView
     },
+    {
+      path: '/applewatch-kijelzo-csere',
+      name: 'applewatch-kijelzo',
+      component: WatchScreenChangeView
+    },
+    {
+      path: '/applewatch-akkumulator-csere',
+      name: 'applewatch-akkumulator',
+      component: WatchBatteryChangeView
+    }
   ]
 })
 

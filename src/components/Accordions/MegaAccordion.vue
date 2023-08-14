@@ -108,7 +108,11 @@
                         <h3 class="mr-2 text-xl text-gray-900">Hátlap csere:&nbsp;</h3>
                         <p class="text-xl font-semibold">{{ productData.backChange }}</p> 
                     </div>
-                    <div v-else-if="contentType === 'iphoneBatteryChange'" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2 p-2 accordionHover">
+                    <div v-else-if="contentType === 'watchScreenChange'" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2 accordionHover">
+                        <h3 class="mr-2 text-xl text-gray-900">Kijelző felújítás:&nbsp;</h3>
+                        <p class="text-xl font-semibold">{{ productData.screenRenewal }} Ft</p>
+                    </div>
+                    <div v-else-if="contentType === 'iphoneBatteryChange' || contentType === 'watchBatteryChange'" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2 p-2 accordionHover">
                         <h3 class="mr-2 text-xl text-gray-900">Akkumulátor csere:&nbsp;</h3>
                         <p class="text-xl font-semibold">{{ productData.batteryChange }}</p> 
                     </div>
