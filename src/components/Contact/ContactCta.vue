@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="mx-auto mt-8 max-w-xl flex felx-row justify-center items-center">
-        <universal-button :accentBackground="true" :basicButton="true" text="Kapcsolat" destination="/"/>
+        <universal-button :accentBackground="true" :basicButton="true" text="Kapcsolat" destination="/kapcsolat"/>
     </div>
   </div>
 </section>

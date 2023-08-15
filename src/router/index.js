@@ -69,7 +69,12 @@ const router = createRouter({
       name: 'rolunk',
       component: AboutUsView
     }
-  ]
+  ],
+  linkActiveClass: 'nav-link',
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router

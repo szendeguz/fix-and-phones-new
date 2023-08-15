@@ -15,7 +15,7 @@
                         <p class="mr-2 py-3 px-6 text-xl text-gray-900">{{ problem.name }}:&nbsp;<span class="font-semibold">{{ problem.price }}&nbsp;Ft</span></p>
                     </div>
                     <div class="my-4 flex felx-col justify-center">
-                        <universal-button :basicButton="true" :accentBackground="true" text="Bővebben" destination="/"></universal-button>
+                        <universal-button :basicButton="true" :accentBackground="true" text="Bővebben" destination="/kapcsolat"></universal-button>
                     </div>
                 </div>
             </Transition>

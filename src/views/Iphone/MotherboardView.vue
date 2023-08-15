@@ -1,7 +1,7 @@
 <template>
   <sub-header headline="iPhone Alaplap Javítás"></sub-header>
   <basic-section :headline="headline" :paragraph1="paragraph1" :paragraph2="paragraph2" :image="img"
-  :withButton="true" buttonText="Árlista" destination="/"
+  :withScrollButton="true" buttonText="Árlista"
   :whiteTheme="false"
   />
   <basic-section :image="img2"

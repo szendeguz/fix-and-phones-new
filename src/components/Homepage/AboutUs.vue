@@ -15,7 +15,7 @@
             Jelenleg Budapesten és Szegeden tartunk fenn műhelyet. Nem csak partnereink, de magánszemélyek is régóta fordulnak hozzánk bizalommal és távoznak elégedetten!
           </p>
           <div class="mt-4 md:mt-8">
-           <universal-button :transparentBackground="true" :basicButton="true" text="Bővebben" destination="/"></universal-button>
+           <universal-button :transparentBackground="true" :basicButton="true" text="Bővebben" destination="/kapcsolat"></universal-button>
           </div>
         </div>
       </div>

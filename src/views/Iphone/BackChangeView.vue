@@ -2,7 +2,7 @@
   <sub-header headline="iPhone Hátlap Csere"></sub-header>
   <basic-section 
   :headline="headline" :paragraph1="paragraph1" :paragraph2="paragraph2" :image="img"
-  :withButton="true" buttonText="Árlista" destination="/"
+  :withScrollButton="true" buttonText="Árlista"
   :whiteTheme="false"
   />
   <mega-accordion-section contentType="iphoneBackChange" :priceList="backChangeList"></mega-accordion-section>

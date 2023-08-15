@@ -22,10 +22,15 @@
         <p v-if="this.paragraph2" class="mt-4 text-gray-300">
           {{ this.paragraph2 }}
         </p>
-        <div class="mt-8">
+        <div class="mt-8"
+        @click="scrollToPriceList">
             <universal-button 
             v-if="withButton"
             :basicButton="true" :accentBackground="true" :text="buttonText" :destination="buttonDestination"
+            />
+            <universal-button 
+            v-if="withScrollButton"
+            :accentBackground="true" :text="buttonText" :scrollButton="true"
             />
         </div>
       </div>
@@ -54,6 +59,13 @@ export default {
     buttonDestination: '',
     whiteTheme: false,
     withSlot: false,
+    withScrollButton: false,
+  },
+  methods: {
+    scrollToPriceList() {
+        const position = document.getElementById("megaaccordion").offsetTop - 150;
+        window.scrollTo({top: position});
+    }
   }
 }
 </script>

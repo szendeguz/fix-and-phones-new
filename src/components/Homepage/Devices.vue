@@ -17,8 +17,8 @@
       </p>
     </div>
     <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <universal-button :arrowButton="true" :transparentBackground="true" text="Készülékek" destination="/"></universal-button>
-        <universal-button :arrowButton="true" :transparentBackground="true" text="Kapcsolat" destination="/"></universal-button>
+        <universal-button :arrowButton="true" :transparentBackground="true" text="Készülékek" destination="/keszulekek"></universal-button>
+        <universal-button :arrowButton="true" :transparentBackground="true" text="Kapcsolat" destination="/kapcsolat"></universal-button>
       </div>
   </div>
 </section>
