@@ -8,6 +8,8 @@ import ScreenChangeView from '../views/Iphone/ScreenChangeView.vue'
 import ModularChangeView from '../views/Iphone/ModularChangeView.vue'
 import WatchScreenChangeView from '../views/AppleWatch/WatchScreenChangeView.vue'
 import WatchBatteryChangeView from '../views/AppleWatch/WatchBatteryChangeView.vue'
+import ContactUsView from '../views/ContactUsView.vue'
+import AboutUsView from '../views/AboutUsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +58,16 @@ const router = createRouter({
       path: '/applewatch-akkumulator-csere',
       name: 'applewatch-akkumulator',
       component: WatchBatteryChangeView
+    },
+    {
+      path: '/kapcsolat',
+      name: 'kapcsolat',
+      component: ContactUsView
+    },
+    {
+      path: '/rolunk',
+      name: 'rolunk',
+      component: AboutUsView
     }
   ]
 })
