@@ -25,14 +25,21 @@
     {{ this.text }}
   </span>
 </router-link>
-<routerlink
+<router-link
   v-if="this.basicButton"
   class="inline-block rounded px-12 py-3 text-sm font-medium cursor-pointer transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
   :class="this.buttonStyle"
   :to="this.destination"
 >
   {{ this.text }}
-</routerlink>
+</router-link>
+<a
+  v-if="this.scrollButton"
+  class="inline-block rounded px-12 py-3 text-sm font-medium cursor-pointer transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
+  :class="this.buttonStyle"
+>
+  {{ this.text }}
+</a>
 </template>
 
 <script>
@@ -45,6 +52,7 @@ export default {
   props: {
     arrowButton: false,
     basicButton: false,
+    scrollButton: false,
     accentBackground: false,
     whiteBackground: false,
     transparentBackground: false,

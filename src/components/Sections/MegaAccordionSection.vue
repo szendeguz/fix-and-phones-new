@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-lighter flex flex-col justify-center items-center p-8 mt-24">
+  <div class="bg-lighter flex flex-col justify-center items-center p-8 mt-24" id="megaaccordion">
     <div class="pt-6 -mt-20 mb-6">
         <h2 class="rounded text-2xl bg-gray-100 border-gray-300 text-gray-900 p-2">Árlistánk típusonként</h2>
     </div>

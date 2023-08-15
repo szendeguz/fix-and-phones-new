@@ -34,6 +34,9 @@ import MegaAccordion from '../Accordions/MegaAccordion.vue';
 import ThreeTab from '../utilities/ThreeTab.vue'
 export default {
   components: { ThreeTab, MegaAccordion },
+  props: {
+    activeButton: 0,
+  },
   data() {
     return {
         tabButtons: [
@@ -92,6 +95,11 @@ export default {
         }
     }
   },
+  watch: {
+    activeButton: function() {
+        this.changeTab(this.activeButton);
+    }
+  }
 }
 </script>
 

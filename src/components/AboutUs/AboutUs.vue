@@ -40,7 +40,7 @@
             Jelenleg Budapesten és Szegeden tartunk fenn műhelyet. Nem csak partnereink, de magánszemélyek is régóta fordulnak hozzánk bizalommal és távoznak elégedetten!
           </p>
           <div class="mt-8">
-            <universal-button :accentBackground="true" :arrowButton="true" text="Kapcsolat" destination="/"></universal-button>
+            <universal-button :accentBackground="true" :arrowButton="true" text="Kapcsolat" destination="/kapcsolat"></universal-button>
           </div>
         </div>
       </div>

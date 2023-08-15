@@ -3,7 +3,9 @@
     <div class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8 py-1">
       <div class="p-4 flex flex-row items-center justify-between">
         <!--LOGO-->
-        <a href="#" class="text-xl font-semibold tracking-widest text-accent uppercase rounded-lg focus:outline-none focus:shadow-outline" @click="this.dropdownHandler(), this.dropdownOpen = false">LOGO</a>
+        <a href="#" class="focus:outline-none focus:shadow-outline" @click="this.dropdownHandler(), this.dropdownOpen = false">
+          <img src="../../assets/images/logos/logo_blue.png" class="h-12">
+        </a>
         <!--HAMBURGER MENU-->
         <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="this.dropdownHandler()">
           <svg viewBox="0 0 20 20" class="w-6 h-6 fill-white">
@@ -36,9 +38,9 @@
                     </div>
                   </div>
                   <div :class="[submenuOpen ? 'max-h-80' : 'max-h-0']" class="overflow-hidden duration-300 bg-lightest rounded-lg">
-                    <router-link to="/iphone-alaplap" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Alaplap Javítás</router-link>
+                    <router-link to="/iphone-alaplap-javitas" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Alaplap Javítás</router-link>
                     <!--IPHONE SUBMENU-->
-                    <router-link to="/iphone-kijelzo-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Kijelző Javítás</router-link>
+                    <router-link to="/iphone-kijelzo-javitas" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Kijelző Javítás</router-link>
                     <router-link to="/iphone-hatlap-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Hátlap Csere</router-link>
                     <router-link to="/iphone-akkumulator-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Akkumulátor Csere</router-link>
                     <router-link to="/iphone-modularis-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownOpen = !this.dropdownOpen">Moduláris Csere</router-link>
@@ -56,8 +58,8 @@
                   </div>
                   <div :class="[watchSubmenuOpen ? 'max-h-80' : 'max-h-0']" class="overflow-hidden duration-300 bg-lightest rounded-lg">
                     <!--APPLE WATCH - SUBMENU-->
-                    <router-link to="/watch-kijelzo" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownHandler()">Kijelző Javítás</router-link>
-                    <router-link to="/watch-akkumulator" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownHandler()">Akkumulátor Csere</router-link>
+                    <router-link to="/applewatch-kijelzo-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownHandler()">Kijelző Javítás</router-link>
+                    <router-link to="/applewatch-akkumulator-csere" class="flex items-center h-8 px-4 text-sm menu-hover rounded-lg" @click="this.dropdownHandler()">Akkumulátor Csere</router-link>
                   </div>
                 </div>
               </div>
@@ -100,9 +102,9 @@
                 </div>
                 <!--IPHONE SUBMENU - MOBILE-->
                 <div :class="[submenuOpen ? 'max-h-80' : 'max-h-0']" class="overflow-hidden duration-300 bg-lightest">
-                    <router-link to="/iphone-alaplap" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Alaplap Javítás</router-link>
+                    <router-link to="/iphone-alaplap-javitas" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Alaplap Javítás</router-link>
                     <!--IPHONE SUBMENU-->
-                    <router-link to="/iphone-kijelzo-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Kijelző Csere</router-link>
+                    <router-link to="/iphone-kijelzo-javitas" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Kijelző Csere</router-link>
                     <router-link to="/iphone-hatlap-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Hátlap Csere</router-link>
                     <router-link to="/iphone-akkumulator-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Akkumulátor Csere</router-link>
                     <router-link to="/iphone-modularis-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.dropdownOpen = !this.dropdownOpen">Moduláris Csere</router-link>
@@ -119,8 +121,8 @@
                   </div>
                   <div :class="[watchSubmenuOpen ? 'max-h-80' : 'max-h-0']" class="overflow-hidden duration-300 bg-lightest">
                     <!--APPLE WATCH - SUBMENU - MOBILE-->
-                    <router-link to="/watch-kijelzo" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.mobileDropdownHandler(), this.dropdownHandler()">Kijelző Javítás</router-link>
-                    <router-link to="/watch-akkumulator" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.mobileDropdownHandler(), this.dropdownHandler()">Akkumulátor Csere</router-link>
+                    <router-link to="/applewatch-kijelzo-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.mobileDropdownHandler(), this.dropdownHandler()">Kijelző Javítás</router-link>
+                    <router-link to="/applewatch-akkumulator-csere" class="flex items-center h-8 px-4 text-sm hover:bg-gray-200 hover:text-light" @click="this.mobileDropdownHandler(), this.dropdownHandler()">Akkumulátor Csere</router-link>
                   </div>
                 </div>
               </div>
@@ -142,8 +144,8 @@
               </div>
             </div>
         </div>
-        <a class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Rólunk</a>
-        <a class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Kapcsolat</a>
+        <router-link to="/rolunk" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Rólunk</router-link>
+        <router-link to="/kapcsolat" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Kapcsolat</router-link>
       </nav>
     </div>
   </div>

@@ -15,7 +15,7 @@
                         <h3 class="mr-2 mb-3 text-xl text-background">{{ device.name }}:&nbsp;<span class="font-semibold">{{ device.batteryChangeError }} Ft</span></h3>
                     </div>
                     <div class="flex md:justify-end justify-center sm:mr-12 mt-6">
-                        <universal-button :basicButton="true" destination="/" text="Kapcsolat" :accentBackground="true"></universal-button>
+                        <universal-button :basicButton="true" destination="/kapcsolat" text="Kapcsolat" :accentBackground="true"></universal-button>
                     </div>
                 </div>
             </div>

@@ -19,8 +19,8 @@
         Gyors, precíz alaplap javítás, kijelző felújítás, moduláris csere és egyéb speciális szervizelés több éves tapasztalattal, professzionális minőségben.
       </p>
       <div class="mt-16 flex flex-wrap gap-4 text-center">
-        <universal-button :arrowButton="true" :accentBackground="true" text="Készülékek" destination="#"></universal-button>
-        <universal-button :arrowButton="true" :whiteBackground="true" text="Kapcsolat" destination="#"></universal-button>
+        <universal-button :arrowButton="true" :accentBackground="true" text="Készülékek" destination="/keszulekek"></universal-button>
+        <universal-button :arrowButton="true" :whiteBackground="true" text="Kapcsolat" destination="/kapcsolat"></universal-button>
       </div>
     </div>
   </div>

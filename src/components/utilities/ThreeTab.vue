@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-flex max-w-fit rounded border border-gray-100 bg-gray-100 p-1">
+  <div class="inline-flex max-w-fit rounded border border-gray-100 bg-gray-100 p-1" id="threetab">
     <button
     v-for="button in buttons" :key="button"
     @click.prevent="$emit('tabclick', button.id)"

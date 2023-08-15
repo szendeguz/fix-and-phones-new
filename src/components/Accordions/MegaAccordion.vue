@@ -82,7 +82,7 @@
                             <h3 class="mr-2 mb-3 text-xl text-gray-900">{{ problem.name }}&nbsp;<span class="text-gray-700">{{ problem.desc }}</span>:&nbsp;<br><span class="font-semibold">{{ problem.price }} Ft</span></h3>
                         </div>
                         <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
-                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/"/>
+                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/kapcsolat"/>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                             <h3 class="mr-2 mb-3 text-xl text-gray-900">Kijelző csere:&nbsp;<span class="font-semibold">{{ productData.screenChange }} Ft</span></h3>
                         </div>
                         <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
-                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/"/>
+                            <universal-button :arrowButton="true" :accentBackground="true" text="Kapcsolat" destination="/kapcsolat"/>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                         <p class="text-xl font-semibold">{{ productData.batteryChange }}</p> 
                     </div>
                     <div class="flex sm:justify-end sm:mr-12 mt-2 sm:mt-0">
-                        <universal-button :arrowButton="true" :accentBackground="true" text="Rendelés" destination="/"/>
+                        <universal-button :arrowButton="true" :accentBackground="true" text="Rendelés" destination="/kapcsolat"/>
                     </div>
                 </div>
             </template>
@@ -152,7 +152,6 @@ export default {
         },
         rowStart() {
             const currentWidth = this.windowWidth;
-            console.log(currentWidth)
 
             if (currentWidth === 'large') {
                 if (this.productData.id <= 3) return 'row-start-2';

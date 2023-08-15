@@ -8,12 +8,12 @@
     </header>
 
     <ul class="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
-      <li>
-        <a href="#" class="relative block group">
+      <li @click="$emit('scrolling', 0)" class="cursor-pointer">
+        <a class="relative block group">
           <img
             src="../../assets/images/sections/iphone_dev_section.jpg"
             alt=""
-            class="object-cover w-full transition duration-500 aspect-square rounded group-hover:opacity-60"
+            class="object-cover w-full transition duration-500 aspect-square rounded group-hover:opacity-60 cursor-pointer"
           />
 
           <div
@@ -30,8 +30,8 @@
         </a>
       </li>
 
-      <li>
-        <a href="#" class="relative block group">
+      <li @click="$emit('scrolling', 1)" class="cursor-pointer">
+        <a class="relative block group">
           <img
             src="../../assets/images/sections/apple_watch_dev_section.jpg"
             alt=""
@@ -52,8 +52,8 @@
         </a>
       </li>
 
-      <li class="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-        <a href="#" class="relative block group">
+      <li @click="$emit('scrolling', 2)" class="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1 cursor-pointer">
+        <a class="relative block group">
           <img
             src="../../assets/images/sections/ipad_dev_section.jpg"
             alt=""

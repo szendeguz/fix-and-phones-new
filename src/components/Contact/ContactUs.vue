@@ -20,7 +20,7 @@
         <textarea placeholder="Probléma leírása*" class="w-full h-32 bg-gray-200 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
       </div>
       <div class="my-2 w-1/2 lg:w-1/4 lg:mb-0 mb-16">
-        <universal-button :basicButton="true" :accentBackground="true" text="KÜLDÉS" destination="/"></universal-button>
+        <universal-button :basicButton="true" :accentBackground="true" text="KÜLDÉS" destination="#"></universal-button>
       </div>
     </div>
     <div class="w-full lg:-mt-96 lg:w-2/6 -mt-14 px-8 py-12 ml-auto contact-us-bg bg-center bg-cover rounded">
