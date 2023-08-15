@@ -21,12 +21,12 @@
                         <img :src="productData.image">
                     </div>
                     <div v-if="productData.type === 'iphone'" class="block p-3">
-                        <router-link to="/iphone-alaplap" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2
+                        <router-link to="/iphone-alaplap-javitas" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2
                         accordionHover">
                             <i class="fa-solid fa-microchip mr-2 text-xl text-gray-900"></i>Alaplap javítás
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </router-link>
-                        <router-link to="/iphone-kijelzo-csere" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2
+                        <router-link to="/iphone-kijelzo-javitas" class="mt-2 text-lg cursor-pointer flex flex-row items-center text-gray-900 mb-2
                         accordionHover">
                             <i class="fa-solid fa-mobile-screen-button mr-2 text-xl text-gray-900"></i> Kijelző csere
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -55,7 +55,7 @@
                                 <p class="text-xl font-semibold">{{ productData.screenRenewal }} Ft</p>
                             </div>
                             <div class="flex justify-end mr-12">
-                                <router-link to="/watch-kijelzo" class="flex flex-row justify-center px-3 py-2 text-sm font-medium text-center shadow-lg text-realwhite border-accent border bg-accent rounded hover:bg-realwhite hover:text-accent focus:ring-4 focus:outline-none focus:ring-blue-300">
+                                <router-link to="/applewatch-kijelzo-csere" class="flex flex-row justify-center px-3 py-2 text-sm font-medium text-center shadow-lg text-realwhite border-accent border bg-accent rounded hover:bg-realwhite hover:text-accent focus:ring-4 focus:outline-none focus:ring-blue-300">
                                     Bővebben
                                 </router-link>
                             </div>
@@ -67,7 +67,7 @@
                                 <p class="text-xl font-semibold">{{ productData.batteryChange }} Ft</p>
                             </div>
                             <div class="flex justify-end mr-12">
-                                <router-link to="/watch-akkumulator" class="flex flex-row justify-center px-3 py-2 text-sm font-medium text-center shadow-lg text-realwhite border-accent border bg-accent rounded hover:bg-realwhite hover:text-accent focus:ring-4 focus:outline-none focus:ring-blue-300">
+                                <router-link to="/applewatch-akkumulator-csere" class="flex flex-row justify-center px-3 py-2 text-sm font-medium text-center shadow-lg text-realwhite border-accent border bg-accent rounded hover:bg-realwhite hover:text-accent focus:ring-4 focus:outline-none focus:ring-blue-300">
                                     Bővebben
                                 </router-link>
                             </div>

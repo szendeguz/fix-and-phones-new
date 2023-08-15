@@ -14,6 +14,9 @@
                         <br>
                         <p v-if="item.paragraph2">{{ item.paragraph2 }}</p>
                     </div>
+                    <div v-if="withSlot" class="p-4">
+                        <slot></slot>
+                    </div>
                 </div>
             </Transition>
         </div>
@@ -25,6 +28,7 @@
 export default {
     props: {
         content: [],
+        withSlot: false,
     }
 }
 </script>
