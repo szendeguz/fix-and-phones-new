@@ -144,8 +144,8 @@
               </div>
             </div>
         </div>
-        <router-link to="/rolunk" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Rólunk</router-link>
-        <router-link to="/kapcsolat" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" href="#">Kapcsolat</router-link>
+        <router-link to="/rolunk" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" @click="this.dropdownOpen = !this.dropdownOpen">Rólunk</router-link>
+        <router-link to="/kapcsolat" class="px-4 py-2 mt-2 text-md font-semibold text-white bg-transparent rounded-lg md:mt-0 md:ml-4 menu-hover" @click="this.dropdownOpen = !this.dropdownOpen">Kapcsolat</router-link>
       </nav>
     </div>
   </div>
