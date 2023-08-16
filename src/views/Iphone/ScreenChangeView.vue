@@ -40,7 +40,7 @@ export default {
   components: { BasicSection, SubHeader, MegaAccordionSection, ScreenTypes, ContactCta, ImageCarousel },
   data ()  {
     return {
-        img: '../src/assets/images/sections/iphone_screen_change_section.jpeg',
+        img: '/fix-and-phones-new/images/sections/iphone_screen_change_section.jpeg',
         images: [
         'images/carousel/screenchange/ipSn_accordion_1.jpg',
         'images/carousel/screenchange/ipSn_accordion_2.jpg',

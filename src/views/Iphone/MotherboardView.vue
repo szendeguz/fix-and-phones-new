@@ -33,8 +33,8 @@ export default {
             headline: 'Az alaplai hibákról',
             paragraph1: 'Az alaplap felületére forrasztott áramkörök fizikai hatásra, extrém hő hatására vagy túlfeszültség következtében (hibás, vagy nem jó minőségű utángyártott töltő) meghibásodhatnak, elengedhetnek, amelynek következtében eltérő hibákat produkálhat készülékünk.',
             paragraph2: 'Az alaplapi meghibásodások szinte minden esetben megjavíthatóak alaplap csere nélkül is, de ehhez professzionális géppark, igényes munka és több éves tapasztalat szükséges!',
-            img: '../src/assets/images/sections/motherboard_desc_1.jpg',
-            img2: '../src/assets/images/sections/motherboard_desc_2.jpg',
+            img: '/fix-and-phones-new//images/sections/motherboard_desc_1.jpg',
+            img2: '/fix-and-phones-new//images/sections/motherboard_desc_2.jpg',
             accordionContent: [
             {
                 head: 'Töltésvezérlő IC', 
